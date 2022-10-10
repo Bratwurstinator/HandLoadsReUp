@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/../../comps</xpath>
+    <value>
+      <li>
+          <compClass>HandLoading.exploder</compClass>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--<MainButtonDef>
+        <defName>faction_ammos_stuff</defName>
+        <label>faction ammos</label>
+        <description>NPC factions.</description>
+        <tabWindowClass>HandLoading.Tab_FactionAmmos</tabWindowClass>
+        <order>169</order>
+        <validWithoutMap>true</validWithoutMap>
+        <minimized>True</minimized>
+        <iconPath>UI/Buttons/MainButtons/Factions</iconPath>
+      </MainButtonDef>-->
+</Defs>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="FurnitureBase" Name="LoadingDesignBaseBench" Abstract="True">
+    <thingClass>HandLoading.LoadingBench</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <comps>
+     <li Class="HandLoading.BenchCompProps">
+     
+     </li>
+    
+    </comps>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <canOverlapZones>false</canOverlapZones>
+   
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      
+    </building>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="LoadingDesignBaseBench">
+    <thingClass>HandLoading.LoadingBench</thingClass>
+    <defName>LoadingBenchebola</defName>
+    <label>Loading design bench.</label>
+    <description>Ammo design bench.</description>
+    <graphicData>
+      <!-- Things\bench\bench -->
+      <texPath>Things/bench/bench/bench</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2,1)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Mass>30</Mass>
+    </statBases>
+    <size>(2,1)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <building>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>42</pathCost>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designationHotKey>Misc2</designationHotKey>
+    <designationCategory>Production</designationCategory>
+    <techLevel>Industrial</techLevel>
+    <researchPrerequisites>
+      <li>HandLoading</li>
+    </researchPrerequisites>
+    <uiIconScale>0.90</uiIconScale>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef>
+    <defName>vcghjkilokjbhvg</defName>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>proner</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>CombatExtended.BulletCE</thingClass>
+    <label>a</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <speed>56</speed>
+      <dropsCasings>true</dropsCasings>
+      <damageAmountBase>3</damageAmountBase>
+      <armorPenetrationSharp>15.89818</armorPenetrationSharp>
+      <armorPenetrationBlunt>11.44</armorPenetrationBlunt>
+    </projectile>
+  </ThingDef>
+
+    <StatCategoryDef>
+        <defName>PowderStuff</defName>
+        <label>Effects on ammunition</label>
+        <displayOrder>69</displayOrder>
+      </StatCategoryDef>
+    <StatDef>
+        <defName>PowderPower</defName>
+        <label>Powder's power</label>
+        <labelForFullStatList>Powder's power</labelForFullStatList>
+        <description>Power of the powder. The higher it is the more damage the projectile will do and the more medium it'll penetrate.</description>
+        <category>Basics</category>
+        <defaultBaseValue>0</defaultBaseValue>
+        <minValue>0.25</minValue>
+        <toStringStyle>FloatTwoOrThree</toStringStyle>
+        <showIfUndefined>false</showIfUndefined>
+        <displayPriorityInCategory>6555</displayPriorityInCategory>
+      </StatDef>
+
+      <StatDef>
+        <defName>Explodability</defName>
+        <label>Explodability</label>
+        <labelForFullStatList>Unstableness</labelForFullStatList>
+        <description>Powder's chance to explode.</description>
+        <category>Basics</category>
+        <defaultBaseValue>0</defaultBaseValue>
+        <minValue>0</minValue>
+        <toStringStyle>FloatTwoOrThree</toStringStyle>
+        <showIfUndefined>false</showIfUndefined>
+        <displayPriorityInCategory>6955</displayPriorityInCategory>
+      </StatDef>
+
+      <ThingCategoryDef>
+        <defName>HandsLoadedAmmo</defName>
+        <label>Hand loading</label>
+        <parent>Weapons</parent>
+        
+      </ThingCategoryDef>
+    
+</Defs>

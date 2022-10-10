@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HandLoading.RecipeShapeDef>
+        <defName>hollowpoint</defName>
+        <label>hollow point</label>
+        <!-- The reaserch def needed for this ammo option -->
+        <needed>HandLoading</needed>
+        <!-- I think you know -->
+        <penmult>0.5</penmult>
+        <!-- same here -->
+        <damagemult>2</damagemult>
+        <workmult>4</workmult>
+        <techlevel>Industrial</techlevel>
+        <dmgusestatpawn>true</dmgusestatpawn>
+        <penusestatpawn>false</penusestatpawn>
+    </HandLoading.RecipeShapeDef>
+
+    <HandLoading.RecipeShapeDef>
+        <defName>armorpiercing</defName>
+        <label>armor piercing</label>
+        <needed>HandLoading</needed>
+        <penmult>2</penmult>
+        <damagemult>0.5</damagemult>
+        <workmult>2</workmult>
+        <techlevel>Industrial</techlevel>
+    </HandLoading.RecipeShapeDef>
+
+    <HandLoading.RecipeShapeDef>
+        <defName>siebenNsechs</defName>
+        <label>PS</label>
+        <needed>s7n6s</needed>
+        <penmult>1.7</penmult>
+        <damagemult>1.6</damagemult>
+        <workmult>3</workmult>
+        <techlevel>Industrial</techlevel>
+        <dmgusestatpawn>true</dmgusestatpawn>
+    </HandLoading.RecipeShapeDef>
+
+    <HandLoading.RecipeShapeDef>
+        <defName>fmjk</defName>
+        <label>full metal jacket</label>
+        <needed>HandLoading</needed>
+        <penmult>1</penmult>
+        <damagemult>1</damagemult>
+        <techlevel>Industrial</techlevel>
+        <penusestatpawn>false</penusestatpawn>
+    </HandLoading.RecipeShapeDef>
+
+    <HandLoading.RecipeShapeDef>
+        <defName>buckshit</defName>
+        <label>buckshot</label>
+        <needed>HandLoading</needed>
+        <penmult>0.5</penmult>
+        <damagemult>0.5</damagemult>
+        <ismulti>true</ismulti>
+        <spreadmult>17.9</spreadmult>
+        <techlevel>Medieval</techlevel>
+        <penusestatpawn>false</penusestatpawn>
+    </HandLoading.RecipeShapeDef>
+
+    <HandLoading.RecipeShapeDef>
+        <defName>fleshit</defName>
+        <label>flechette</label>
+        <needed>HandLoading</needed>
+        <penmult>1</penmult>
+        <damagemult>1</damagemult>
+        <ismulti>true</ismulti>
+        <spreadmult>36.9</spreadmult>
+        <techlevel>Industrial</techlevel>
+        <dmgusestatpawn>true</dmgusestatpawn>
+    </HandLoading.RecipeShapeDef>
+
+    <HandLoading.RecipeShapeDef>
+        <defName>sabot</defName>
+        <label>sabot</label>
+        <needed>HandLoading</needed>
+        <penmult>4</penmult>
+        <damagemult>0.25</damagemult>
+        <workmult>6</workmult>
+        <techlevel>Spacer</techlevel>
+    </HandLoading.RecipeShapeDef>
+
+    <HandLoading.RecipeShapeDef>
+        <defName>frag</defName>
+        <label>frag</label>
+        <needed>HandLoading</needed>
+        <penmult>1</penmult>
+        <damagemult>1</damagemult>
+        <isfrag>true</isfrag>
+        <ismulti>true</ismulti>
+        <techlevel>Industrial</techlevel>
+    </HandLoading.RecipeShapeDef>
+    
+
+    <JobDef>
+        <defName>gotobench</defName>
+        <driverClass>HandLoading.gotobench</driverClass>
+        <reportString>Going to TargetA.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+      </JobDef>
+
+
+      <HandLoading.RecipeShapeDef>
+        <defName>solidleadmakeshift</defName>
+        <label>makeshift</label>
+        <needed>Smithing</needed>
+        <penmult>0.15</penmult>
+        <damagemult>0.25</damagemult>
+        <isbootleq>true</isbootleq>
+        <techlevel>Neolithic</techlevel>
+    </HandLoading.RecipeShapeDef>
+
+    <JobDef>
+        <defName>gotospot</defName>
+        <driverClass>HandLoading.haul_to_spot</driverClass>
+        <reportString>Hauling hand loads to TargetA.</reportString>
+        <casualInterruptible>false</casualInterruptible>
+    </JobDef>
+
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>HLspot</defName>
+        <label>hand loads storing spot</label>
+        <description>Hand loading.</description>
+        <thingClass>Building</thingClass>
+        <graphicData>
+          <texPath>Things/Building/Production/CraftingSpot</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <statBases>
+          <WorkToBuild>0</WorkToBuild>
+          <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+        </statBases>
+        <scatterableOnMapGen>false</scatterableOnMapGen>
+        <useHitPoints>false</useHitPoints>
+        <size>(1,1)</size>
+        <designationCategory>Production</designationCategory>
+        <passability>Standable</passability>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType>
+        <building>
+          <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+          <sowTag>SupportPlantsOnly</sowTag>
+          <canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+          <ai_chillDestination>false</ai_chillDestination>
+          <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+          <buildingTags>
+            <li>Production</li>
+          </buildingTags>
+        </building>
+      </ThingDef>
+
+
+
+      <HandLoading.RecipeShapeDef>
+        <defName>thermo_shape</defName>
+        <label>thermobaric</label>
+        <needed>HandLoading</needed>
+        <!-- set to 0 anyway -->
+        <penmult>1</penmult>
+        <!-- same here -->
+        <damagemult>2.6</damagemult>
+        <workmult>4</workmult>
+        <techlevel>Industrial</techlevel>
+        <dmgusestatpawn>true</dmgusestatpawn>
+        <penusestatpawn>false</penusestatpawn>
+        <isfrag>true</isfrag>
+        <ismulti>true</ismulti>
+        <ThermoBar>true</ThermoBar>
+    </HandLoading.RecipeShapeDef>
+        
+
+</Defs>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>handloads</defName>
+        <label>Hand loading</label>
+      </ResearchTabDef>
+  
+  <ResearchProjectDef>
+    <defName>HandLoading</defName>
+    <label>hand loading</label>
+    <description>Make your own ammo.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <tab>handloads</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>emploading</defName>
+    <label>EMP fillants</label>
+    <description>Allows for fitting small EMP bombs into bullets.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <tab>handloads</tab>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>s7n6s</defName>
+    <label>PS rounds</label>
+    <description>Allows you to make bullets with special damage increasing air pocket, but penetration closer to armor piercing ammunition.</description>
+    <baseCost>2300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>1.50</researchViewX>
+    <researchViewY>0.60</researchViewY>
+    <tab>handloads</tab>
+    <prerequisites>
+      <li>HandLoading</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>apone</defName>
+    <label>+P cartridges</label>
+    <description>Raises the maximum powder charge you can load into the gun to 2.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+    <tab>handloads</tab>
+    <prerequisites>
+      <li>HandLoading</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>aptwo</defName>
+    <label>+P+ cartridges</label>
+    <description>Raises the maximum powder charge you can load into the gun to 3.</description>
+    <baseCost>3200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.00</researchViewY>
+    <tab>handloads</tab>
+    <prerequisites>
+      <li>apone</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

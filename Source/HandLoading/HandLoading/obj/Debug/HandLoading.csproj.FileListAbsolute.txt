@@ -1,0 +1,16 @@
+F:\Steam\steamapps\common\RimWorld\Mods\Handloading\Assemblies\HandLoading.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Handloading\Assemblies\HandLoading.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Handloading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Handloading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Handloading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.pdb
+D:\apps\windows\scoop\local\persist\steam\steamapps\common\RimWorld\Mods\Hand-Loading\Assemblies\HandLoading.dll
+D:\apps\windows\scoop\local\persist\steam\steamapps\common\RimWorld\Mods\Hand-Loading\Assemblies\HandLoading.pdb
+D:\apps\windows\scoop\local\persist\steam\steamapps\common\RimWorld\Mods\Hand-Loading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.csprojAssemblyReference.cache
+D:\apps\windows\scoop\local\persist\steam\steamapps\common\RimWorld\Mods\Hand-Loading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.csproj.CoreCompileInputs.cache
+D:\apps\windows\scoop\local\persist\steam\steamapps\common\RimWorld\Mods\Hand-Loading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.dll
+D:\apps\windows\scoop\local\persist\steam\steamapps\common\RimWorld\Mods\Hand-Loading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Hand-Loading\Assemblies\HandLoading.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Hand-Loading\Assemblies\HandLoading.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Hand-Loading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Hand-Loading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Hand-Loading\Source\HandLoading\HandLoading\obj\Debug\HandLoading.csprojAssemblyReference.cache
